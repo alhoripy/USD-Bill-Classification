@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+.python-version
+
+# Data and models
+data/
+models/
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Caches
+__pycache__/
+*.pyc
