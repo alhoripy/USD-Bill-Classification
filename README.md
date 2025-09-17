@@ -57,7 +57,8 @@ USD-Bill-Classification/
 │   └── processed/          # Organized data for model training
 ├── models/                 # Saved trained models (ignored by Git)
 └── docs/                   # Additional documentation
-│   └── model_performance.md
+  └── model_performance.md
+
 
 ## Usage
 1. Data Preparation
