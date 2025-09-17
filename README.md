@@ -58,31 +58,34 @@ USD-Bill-Classification/
 ├── models/                 # Saved trained models (ignored by Git)
 └── docs/                   # Additional documentation
   └── model_performance.md
+ ```
 
-
-Usage ##
+## Usage 
 
 1. Data Preparation
 First, you must process the raw data to prepare it for model training.
 
-Bash
+ ```Bash
 
 uv run python src/data/prepare_data.py
+ ```
 2. Model Training
 Next, run the script to train the CNN model and save it to the models/ folder.
 
-Bash
+ ```Bash
 
 uv run python src/model/train_model.py
+ ```
 3. Launching the Application
 Finally, launch the Gradio user interface to use the model.
 
-Bash
+ ```Bash
 
 uv run python src/ui/app.py
+ ```
 After running this command, open the URL provided in your terminal to access the web application.
 
- Results ##
+## Results 
 
 Model Algorithm: Convolutional Neural Network (CNN)
 
@@ -91,7 +94,7 @@ Final Accuracy: [98.80]%
 Key Findings: The CNN model effectively classifies different US dollar bill denominations with high accuracy. 
               The Confusion Matrix in the notebooks/ folder demonstrates the model's low rate of misclassification.
 
-Contributing ##
+## Contributing 
 
 Fork the repository
 
