@@ -59,8 +59,9 @@ def predict_bill(image):
     
     return f"Predicted Class: ${predicted_class}", confidences
 
-# Create the Gradio interface
-if model:
+# هذا هو الكود الذي يجب أن يكون في نهاية ملف app.py
+
+if __name__ == "__main__":
     gr.Interface(
         fn=predict_bill,
         inputs=gr.Image(type="numpy", label="Upload an image of a USD bill"),
@@ -68,5 +69,3 @@ if model:
         title="USD Bill Classification",
         description="Upload an image of a USD bill to classify its denomination."
     ).launch()
-else:
-    print("Gradio interface could not be launched because the model was not found.")
