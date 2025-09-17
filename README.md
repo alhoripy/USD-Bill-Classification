@@ -61,6 +61,7 @@ USD-Bill-Classification/
 
 
 ## Usage
+
 1. Data Preparation
 First, you must process the raw data to prepare it for model training.
 
@@ -82,6 +83,7 @@ uv run python src/ui/app.py
 After running this command, open the URL provided in your terminal to access the web application.
 
 ## Results
+
 Model Algorithm: Convolutional Neural Network (CNN)
 
 Final Accuracy: [98.80]%
@@ -90,6 +92,7 @@ Key Findings: The CNN model effectively classifies different US dollar bill deno
               The Confusion Matrix in the notebooks/ folder demonstrates the model's low rate of misclassification.
 
 ## Contributing
+
 Fork the repository
 
 Create a feature branch: git checkout -b your-feature-name
