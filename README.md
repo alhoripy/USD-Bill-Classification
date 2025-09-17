@@ -40,6 +40,7 @@ USD-Bill-Classification/
 ├── README.md               # Project documentation
 ├── pyproject.toml          # UV project configuration
 ├── .python-version         # Python version specification
+├── test_project.py         # Test suite
 ├── .gitignore              # Files ignored by Git
 ├── src/                    # Source code
 │   ├── data/               # Data processing modules
