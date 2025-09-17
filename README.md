@@ -9,8 +9,8 @@ I designed and implemented the Convolutional Neural Network (CNN) architecture u
 ### Model Training: 
 I developed and ran the train_model.py script to train the CNN on the prepared dataset. I also handled saving the trained model in the models/ directory.
 
-## Performance Evaluation: 
+### Performance Evaluation: 
 I created the model_training_report.ipynb to analyze the model's performance, including its accuracy and key findings. I also wrote the docs/model_performance.md file to document the results.
 
-## Testing and Validation: 
+### Testing and Validation: 
 I created the test_project.py script to automatically validate that the data, model, and other project components were working correctly.
