@@ -10,7 +10,7 @@ A machine learning project that classifies US dollar bills based on images. The 
 | :---: | :---: | :---: | :--- |
 |    202174125  | [Ehab Abdul Karim Al-Qobati] | Data Analyst | data preprocessing, and organization. |
 |   202174202   | [Musa Ali Al-Salmany] | ML Engineer | Model development, training, and performance evaluation. |
-|   202173006  | [Abdulraheem Yaser Abdulraheem] |Initial project setup| UI/UX Developer | Building the Gradio user interface for the final application. |
+|   202173006  | [Abdulraheem Yaser Abdulraheem] |Lead Developer,UI/UX Developer| Initial project setup, Building the Gradio user interface for the final application. |
 
 ## Installation and Setup
 
