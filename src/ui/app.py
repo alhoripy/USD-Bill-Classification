@@ -58,6 +58,7 @@ def predict_bill(image):
     confidences = {class_names[i]: float(predictions[0][i]) for i in range(len(class_names))}
     
     return f"Predicted Class: ${predicted_class}", confidences
+
 # هذا هو الكود الذي يجب أن يكون في نهاية ملف app.py
 
 if __name__ == "__main__":
